@@ -1613,18 +1613,18 @@ Max speed — Horses &amp; Samurai you control gain first strike. Horse Samurai 
     </card>
     <card>
       <name>Agnes Digital, All-Around Otaku</name>
-      <set rarity="common">UUMA</set>
+      <set rarity="rare">UUMA</set>
       <prop>
-        <colors>WR</colors>
-        <manacost>2R/W</manacost>
+        <colors></colors>
+        <manacost>3</manacost>
         <cmc>3</cmc>
         <type>Legendary Creature - Horse Racer </type>
         <maintype>Creature</maintype>
         <pt>3/3</pt>
       </prop>
       <tablerow>2</tablerow>
-      <text>Affinity for Horses (This spell costs {1} less to cast for each Horse you control.)
-Whenever Agnes Digital attacks with another Horse or is blocked by another Horse, if that Horse has flying and Agnes Digital doesn’t, Agnes Digital gains flying until end of turn. The same is true for first strike, double strike, deathtouch, indestructible, lifelink, menace, reach, trample, and vigilance.</text>
+      <text>Agnes Digital is every color in your commander’s color identity.
+Agnes Digital has haste as long as another Horse you control has haste. The same is true for flying, first strike, double strike, deathtouch, hexproof, indestructible, lifelink, menace, reach, trample, and vigilance.</text>
     </card>
     <card>
       <name>Path to Exile</name>
@@ -2436,7 +2436,7 @@ When Biko Pegasus enters, exile target attacking non-Hero creature until Biko Pe
     </card>
     <card>
       <name>Duelist&apos;s Heritage</name>
-      <set rarity="common">UUMA</set>
+      <set rarity="uncommon">UUMA</set>
       <prop>
         <colors>W</colors>
         <manacost>2W</manacost>
@@ -2639,7 +2639,7 @@ Aptitude S — Creatures you control with haste have double strike.</text>
       </prop>
       <tablerow>1</tablerow>
       <text>(Gain the next level as a sorcery to add its ability.)
-Aptitude B — Creatures you control gain +0/+1.
+Aptitude B — Creatures you control get +0/+1.
 1W: Level 2
 Aptitude A — Creatures you control have vigilance.
 1WW: Level 3
@@ -3034,9 +3034,11 @@ Ward—Pay 2 life.</text>
         <pt>4/12</pt>
       </prop>
       <tablerow>2</tablerow>
-      <text>Menace, lifelink, trample
+      <text>Trample
 Whenever Oguri Cap enters or becomes the target of a spell, she fights up to one other target creature.
-Whenever a creature dealt damage by Oguri Cap this turn leaves the battlefield, put a +1/+1 counter on Oguri Cap and counter up to one target spell.</text>
+Whenever a creature dealt damage by Oguri Cap this turn leaves the battlefield, choose one—
+• Put a +1/+1 counter on Oguri Cap.
+• Remove a +1/+1 counter from Oguri Cap. If you do, counter target noncreature spell.</text>
     </card>
     <card>
       <name>Professor of Curvature</name>
@@ -3177,6 +3179,235 @@ III — ​</text>
       <tablerow>2</tablerow>
       <text>Trample, haste
 Whenever a creature with greater power than King Halo, Envious Flame deals combat damage to an opponent, you may return this card from the graveyard to the battlefield.</text>
+    </card>
+    <card>
+      <name>Rhein Kraft, Dream Successor</name>
+      <set rarity="mythic" splitterPath="/Rhein Kraft, Dream Successor.png" >UUMA</set>
+      <prop>
+        <colors>W</colors>
+        <manacost>1WW</manacost>
+        <cmc>3</cmc>
+        <type>Legendary Creature - Horse Racer </type>
+        <maintype>Creature</maintype>
+        <pt>2/2</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>Rhein Kraft enters with two crown counters on her.
+{W}, {T}, Remove a crown counter from Rhein Kraft: Return target Horse creature card with mana value 3 or less from your graveyard to the battlefield.
+When Rhein Kraft dies or the last crown counter is removed, exile her, then return her to the battlefield transformed under her owner’s control.
+---
+(Back): Shine On Forever</text>
+      <related attach="transform">Shine On Forever</related>
+    </card>
+    <card>
+      <name>Shine On Forever</name>
+      <set rarity="mythic" splitterPath="/Shine On Forever.png" >UUMA</set>
+      <prop>
+        <colors>W</colors>
+        <manacost></manacost>
+        <cmc>3</cmc>
+        <type>Legendary Enchantment</type>
+      </prop>
+      <tablerow>1</tablerow>
+      <text>At the beginning of combat on your turn, you may pay {3} in any combination of RGWU. If you do, until your next turn, Horses you control gain haste if {R} was spent, trample if {G} was spent, lifelink if {W} was spent, hexproof if {U} was spent, and get +1/+1 for each color of mana spent.
+---
+(Front): Rhein Kraft, Dream Successor</text>
+      <related attach="transform">Rhein Kraft, Dream Successor</related>
+    </card>
+    <card>
+      <name>Sounds of Earth, Passionate Artist</name>
+      <set rarity="rare">UUMA</set>
+      <prop>
+        <colors>URG</colors>
+        <manacost>2GUR</manacost>
+        <cmc>5</cmc>
+        <type>Legendary Creature - Horse Racer Bard </type>
+        <maintype>Creature</maintype>
+        <pt>4/4</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>Ritmo del Terra — Whenever you cast an instant or sorcery spell, create a 0/1 green Plant creature token. If five or more mana was spent to cast that spell, for each Plant token you control, create a token that’s a copy of that permanent.
+Plants you control have “{T}: Add {U} or {R}. Spend this mana only to cast an instant or sorcery spell.”</text>
+    </card>
+    <card>
+      <name>Rice Shower, Vampire Makeover!</name>
+      <set rarity="mythic">UUMA</set>
+      <prop>
+        <colors>WB</colors>
+        <manacost>2WB</manacost>
+        <cmc>4</cmc>
+        <type>Legendary Creature - Vampire Horse Racer </type>
+        <maintype>Creature</maintype>
+        <pt>2/4</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>Flying, deathtouch, lifelink
+Whenever you gain life, you may have target opponent gain that much life. If you do, draw a card. Activate this ability only once each turn.</text>
+    </card>
+    <card>
+      <name>Slacker</name>
+      <set rarity="uncommon">UUMA</set>
+      <prop>
+        <colors>U</colors>
+        <manacost>1U</manacost>
+        <cmc>2</cmc>
+        <type>Enchantment - Aura </type>
+        <maintype>Enchantment</maintype>
+      </prop>
+      <tablerow>1</tablerow>
+      <text>Flash
+Enchant creature
+At the beginning of the enchanted creature’s controller’s end step, if enchanted creature is untapped and didn’t attack this turn, tap it and put a stun counter on it.</text>
+    </card>
+    <card>
+      <name>Agnes Digital, Valiant One (WIP)</name>
+      <set rarity="rare">UUMA</set>
+      <prop>
+        <colors>WR</colors>
+        <manacost>3RW</manacost>
+        <cmc>5</cmc>
+        <type>Legendary Creature - Horse Racer Hero </type>
+        <maintype>Creature</maintype>
+        <pt>6/6</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text></text>
+    </card>
+    <card>
+      <name>Halloween Makeover</name>
+      <set rarity="uncommon">UUMA</set>
+      <prop>
+        <colors>B</colors>
+        <manacost>1B</manacost>
+        <cmc>2</cmc>
+        <type>Sorcery</type>
+        <maintype>Sorcery</maintype>
+      </prop>
+      <tablerow>3</tablerow>
+      <text>Put your choice of a flying, lifelink, or deathtouch counter on target creature. For as long as it has a counter on it, it’s a Spirit if it has flying, Vampire if it has lifelink, and Zombie if it has deathtouch.
+If you don’t control that creature, draw a card.</text>
+    </card>
+    <card>
+      <name>Hishi Amazon, Queen of Miho</name>
+      <set rarity="rare">UUMA</set>
+      <prop>
+        <colors>RG</colors>
+        <manacost>3R/GG</manacost>
+        <cmc>5</cmc>
+        <type>Legendary Creature - Horse Racer </type>
+        <maintype>Creature</maintype>
+        <pt>4/4</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>Trample
+Dorm Leader — Whenever Hishi Amazon enters or attacks, create an Umamusume token.  (It’s a 1/1 white Horse Racer creature.)
+You and Me! One-on-One! — Tap another untapped Horse you control: Hishi Amazon fights another target creature you don’t control. Activate only once each turn.</text>
+    </card>
+    <card>
+      <name>Pick Up the Pace</name>
+      <set rarity="common">UUMA</set>
+      <prop>
+        <colors>R</colors>
+        <manacost>1R</manacost>
+        <cmc>2</cmc>
+        <type>Enchantment</type>
+        <maintype>Enchantment</maintype>
+      </prop>
+      <tablerow>1</tablerow>
+      <text>Whenever a creature you control that entered this turn attacks, exile the top card of your library.
+You may play cards exiled with this enchantment as long as you attacked this turn.</text>
+    </card>
+    <card>
+      <name>Speed, Young Avenger</name>
+      <set rarity="common">UUMA</set>
+      <prop>
+        <colors>R</colors>
+        <manacost>1R</manacost>
+        <cmc>2</cmc>
+        <type>Legendary Creature - Mutant Hero </type>
+        <maintype>Creature</maintype>
+        <pt>2/2</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>Haste
+Whenever you cast a noncreature spell, you may pay {1}. When you do, target creature with haste can’t be blocked this turn except by creatures with haste.</text>
+    </card>
+    <card>
+      <name>Bloody Sky, Dark Druid</name>
+      <set rarity="common">UUMA</set>
+      <prop>
+        <colors>R</colors>
+        <manacost>2R</manacost>
+        <cmc>3</cmc>
+        <type>Legendary Creature - Mutant Villain </type>
+        <maintype>Creature</maintype>
+        <pt>2/3</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>Haste
+Whenever one or more creatures you control that entered this turn attack a player, target creature that player controls can’t block this turn.</text>
+    </card>
+    <card>
+      <name>Fast Learner</name>
+      <set rarity="uncommon">UUMA</set>
+      <prop>
+        <colors>U</colors>
+        <manacost>2U</manacost>
+        <cmc>3</cmc>
+        <type>Enchantment - Aura </type>
+        <maintype>Enchantment</maintype>
+      </prop>
+      <tablerow>1</tablerow>
+      <text>Enchant creature
+Whenever enchanted creature deals combat damage to a player, scry that many cards, then draw a card.</text>
+    </card>
+    <card>
+      <name>Deflecting Swat</name>
+      <set rarity="mythic">UUMA</set>
+      <prop>
+        <colors>R</colors>
+        <manacost>2R</manacost>
+        <cmc>3</cmc>
+        <type>Instant</type>
+        <maintype>Instant</maintype>
+      </prop>
+      <tablerow>3</tablerow>
+      <text>If you control a commander, you may cast this spell without paying its mana cost.
+You may choose new targets for target spell or ability.</text>
+    </card>
+    <card>
+      <name>Blast Onepiece, Synced in Stride</name>
+      <set rarity="rare">UUMA</set>
+      <prop>
+        <colors>G</colors>
+        <manacost>5G</manacost>
+        <cmc>6</cmc>
+        <type>Legendary Creature - Horse Racer </type>
+        <maintype>Creature</maintype>
+        <pt>4/4</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>Affinity for Humans
+If one or more tokens would be created under your control, those tokens plus an additional 1/1 white Human creature token are created instead. 
+Humans you control have “1W, {T}: Regenerate target Horse.”</text>
+    </card>
+    <card>
+      <name>Daring Tact, Pure White Tiara</name>
+      <set rarity="mythic">UUMA</set>
+      <prop>
+        <colors>M</colors>
+        <manacost>4WWW // 3WBB</manacost>
+        <cmc>7</cmc>
+        <type>Legendary Creature - Horse Racer  // Sorcery - Adventure </type>
+        <maintype>Creature</maintype>
+    <pt>3/3</pt>
+      </prop>
+      <tablerow>3</tablerow>
+      <text>This spell costs {4} less to cast if three or more creatures you control left the battlefield since your last turn and you control no other creatures.
+Exalted, lifelink, vigilance, ward {3}
+When Daring Tact enters, you become the monarch.
+--- 
+Each player sacrifices each creature they control unless they return that creature to its owner’s hand.</text>
     </card>
 
     <!-->Tokens</-->
