@@ -570,7 +570,7 @@ Runaway — Whenever Daitaku Helios and at least one other creature with haste a
     </card>
     <card>
       <name>Aston Machan, The World&apos;s Mascot</name>
-      <set rarity="common">UUMA</set>
+      <set rarity="rare">UUMA</set>
       <prop>
         <colors>WUR</colors>
         <manacost>1URW</manacost>
@@ -581,7 +581,7 @@ Runaway — Whenever Daitaku Helios and at least one other creature with haste a
       </prop>
       <tablerow>2</tablerow>
       <text>Don’t Forget Me — R/WR/W: Change the target of target spell or ability with a single target to Aston Machan.
-Whenever Aston Machan becomes the target of a spell or non-equip ability, create a 0/1 colorless Toy artifact creature token with myriad named Machan Doll.</text>
+Whenever Aston Machan becomes the target of a spell or ability, create a 0/1 colorless Toy artifact creature token with myriad named Machan Doll. Activated abilities can trigger this ability only once each turn.</text>
     </card>
     <card>
       <name>Biwa Hayahide, Deriving Victory</name>
@@ -783,17 +783,17 @@ Max speed — At the beginning of your end step, transform Tachyon.
     </card>
     <card>
       <name>Dantsu Flame, Centre Stage</name>
-      <set rarity="common">UUMA</set>
+      <set rarity="rare">UUMA</set>
       <prop>
         <colors>WRG</colors>
         <manacost>RGW</manacost>
         <cmc>3</cmc>
-        <type>Legendary Creature - Horse Racer </type>
+        <type>Legendary Creature - Horse Racer Ally </type>
         <maintype>Creature</maintype>
         <pt>2/3</pt>
       </prop>
       <tablerow>2</tablerow>
-      <text>I’ll be...! — Whenever you put one or more counters on another creature you control, put that many of each of those kinds of counters on Dantsu Flame.</text>
+      <text>I’ll be...! — Whenever you put one or more counters on other non-Ally creatures you control, put one of each of those kinds of counters on Dantsu Flame.</text>
     </card>
     <card>
       <name>Durandal, Holy Sword</name>
@@ -1811,7 +1811,7 @@ Other creatures you control with power 2 or less have ward {2}.
     </card>
     <card>
       <name>Sweep Tosho, Little Witch</name>
-      <set rarity="uncommon">UUMA</set>
+      <set rarity="rare">UUMA</set>
       <prop>
         <colors>BR</colors>
         <manacost>1BR</manacost>
@@ -1821,7 +1821,8 @@ Other creatures you control with power 2 or less have ward {2}.
         <pt>1/3</pt>
       </prop>
       <tablerow>2</tablerow>
-      <text>Whenever Sweep Tosho becomes the target of a spell, choose one:
+      <text>Whenever you cast a noncreature spell, Sweep Tosho deals 1 damage to each opponent.
+Whenever Sweep Tosho becomes the target of a spell, choose one:
 • Eat Your Vegetables — Create a Food token.
 • Do Whatever You Want — Lose 3 life, then exile the top card of your library. Until the end of your next turn, you may play that card.</text>
     </card>
@@ -1884,7 +1885,7 @@ G00 1st. F∞; —  Whenever Mihono Bourbon attacks, if it’s the first combat 
       </prop>
       <tablerow>2</tablerow>
       <text>Affinity for historic permanents
-Weaving History — 1W/UU, {T}: Create a token that’s a copy of target legendary creature, except its name is Candid Photograph, it’s an artifact, and it isn’t legendary. (It’s not a creature.)</text>
+Weaving History — 1W/UU, {T}: Choose another target legendary creature you control or commander creature you don’t control. Create a token that’s a copy of it, except its name is Candid Photograph, it’s an artifact, and it isn’t legendary. (It’s not a creature.) Activate only as a sorcery.</text>
     </card>
     <card>
       <name>Deduce</name>
@@ -2255,19 +2256,19 @@ Genius × Bakushin = Victory — You may exert Sakura Bakushin O as she attacks.
     </card>
     <card>
       <name>Symboli Kris S, Onyx Soldier</name>
-      <set rarity="common">UUMA</set>
+      <set rarity="mythic">UUMA</set>
       <prop>
         <colors>M</colors>
-        <manacost>GWUB // 2B</manacost>
+        <manacost>1WUB // 2B</manacost>
         <cmc>4</cmc>
         <type>Legendary Creature - Horse Racer Assassin Soldier  // Instant</type>
         <maintype>Creature</maintype>
-    <pt>4/4</pt>
+    <pt>3/5</pt>
       </prop>
       <tablerow>3</tablerow>
-      <text>Vigilance, reach, deathtouch
+      <text>Vigilance, deathtouch
 Mission: Triumph — Whenever a creature an opponent controls dies, if its toughness was exactly 0, scry 4, then draw a card.
-XB, {T}, discard a card: Target creature gets -0/-Y, where Y is that card’s mana value plus X.
+XB, discard a card: Target creature gets -0/-Y until end of turn, where Y is that card’s mana value plus X. Activate only as a sorcery and only once each turn.
 --- 
 Target creature gets -0/-9999 until end of turn.</text>
     </card>
@@ -2956,14 +2957,14 @@ Permanents with MARVELOUS! ☆ counters have protection from permanents without 
     </card>
     <card>
       <name>Shinko Windy, Fanged Menace</name>
-      <set rarity="uncommon">UUMA</set>
+      <set rarity="rare">UUMA</set>
       <prop>
         <colors>RG</colors>
         <manacost>RG</manacost>
         <cmc>2</cmc>
         <type>Legendary Creature - Horse Racer </type>
         <maintype>Creature</maintype>
-        <pt>4/3</pt>
+        <pt>2/3</pt>
       </prop>
       <tablerow>2</tablerow>
       <text>Menace
@@ -3517,9 +3518,9 @@ Whenever Kiseki attacks, put a lore counter on up to X target Sagas you control,
       </prop>
       <tablerow>1</tablerow>
       <text>(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)
-Create an Umamusume token and a Food token.
-Sacrifice any number of Foods you control. Then put a trample counter and that many +1/+1 counters on target creature.
-Target creature you control fights target creature you don’t control.</text>
+I — Create an Umamusume token and a Food token.
+II — Sacrifice any number of Foods you control. Then put a trample counter and that many +1/+1 counters on target creature.
+III — Target creature you control fights target creature you don’t control.</text>
     </card>
     <card>
       <name>For the Folks Back Home</name>
@@ -3709,17 +3710,17 @@ RW/B: Put a finality counter on target creature. Then Red Desire deals 2 damage 
       <name>Buena Vista, The Promised View</name>
       <set rarity="rare">UUMA</set>
       <prop>
-        <colors>W</colors>
-        <manacost>1WW</manacost>
+        <colors>WG</colors>
+        <manacost>1GW</manacost>
         <cmc>3</cmc>
         <type>Legendary Creature - Horse Racer </type>
         <maintype>Creature</maintype>
         <pt>2/2</pt>
       </prop>
       <tablerow>2</tablerow>
-      <text>Lifelink
-Whenever you gain life for the first time during each of your turns, gain an experience counter.
-At the beginning of combat on your turn, support X, where X is the number of experience counters you have.</text>
+      <text>Lifelink, trample
+Whenever Buena Vista deals combat damage to a player, that player gains that much life.
+Whenever an opponent gains life for the first time each turn, Buena Vista explores. Then target creature that player controls explores.</text>
     </card>
     <card>
       <name>King and Urara, Cycle of Love</name>
@@ -3751,6 +3752,202 @@ Whenever King and Urara become the target of a spell or ability an opponent cont
       <text>Affinity for enchantments (This spell costs {1} less to cast for each enchantment you control.)
 Creature spells you cast have affinity for enchantments.
 Enchantment spells you cast have affinity for creatures.</text>
+    </card>
+    <card>
+      <name>Ines Fujin, Everyone&apos;s Big Sister</name>
+      <set rarity="rare">UUMA</set>
+      <prop>
+        <colors>WRG</colors>
+        <manacost>RGW</manacost>
+        <cmc>3</cmc>
+        <type>Legendary Creature - Horse Racer </type>
+        <maintype>Creature</maintype>
+        <pt>3/3</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>Haste
+Whenever Ines Fujin deals combat damage to a player, create a Treasure token.
+Whenever you sacrifice a Treasure, put a +1/+1 counter on each other creature you control with lesser power than Ines Fujin.</text>
+    </card>
+    <card>
+      <name>Believe, Perseverance and Perfection</name>
+      <set rarity="rare">UUMA</set>
+      <prop>
+        <colors>WUR</colors>
+        <manacost>1URW</manacost>
+        <cmc>4</cmc>
+        <type>Legendary Creature - Horse Racer </type>
+        <maintype>Creature</maintype>
+        <pt>1/1</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>Haste, vigilance, prowess
+Once each turn, you may pay {0} rather than pay the mana cost for a spell you cast that targets Believe with mana value X or less, where X is her power.</text>
+    </card>
+    <card>
+      <name>Hishi Miracle, Rested &amp; Relaxed</name>
+      <set rarity="rare">UUMA</set>
+      <prop>
+        <colors>G</colors>
+        <manacost>1GG</manacost>
+        <cmc>3</cmc>
+        <type>Legendary Creature - Horse Racer </type>
+        <maintype>Creature</maintype>
+        <pt>2/2</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>Hishi Miracle enters tapped.
+As long as Hishi Miracle is tapped, she has hexproof.
+Forestbathing — Whenever a Forest you control enters, gain 2 life, tap Hishi Miracle, and put two +1/+1 counters on her.
+Miracle {G}</text>
+    </card>
+    <card>
+      <name>Bubble Gum Fellow, Spearhead</name>
+      <set rarity="rare">UUMA</set>
+      <prop>
+        <colors>BR</colors>
+        <manacost>2BR</manacost>
+        <cmc>4</cmc>
+        <type>Legendary Creature - Horse Racer </type>
+        <maintype>Creature</maintype>
+        <pt>4/4</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>When Bubble Gum Fellow enters or attacks, create a Food token.
+POPPING! — Whenever you sacrifice a Food, Bubble Gum Fellow deals 2 damage to each opponent.</text>
+    </card>
+    <card>
+      <name>Cesario, Beauty from Venus</name>
+      <set rarity="rare">UUMA</set>
+      <prop>
+        <colors>WU</colors>
+        <manacost>1WU</manacost>
+        <cmc>3</cmc>
+        <type>Legendary Creature - Horse Racer </type>
+        <maintype>Creature</maintype>
+        <pt>3/3</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>When Cesario enters and at the beginning of your upkeep, choose one—
+• On — Cesario gains vigilance and “Whenever Cesario deals combat damage to a player, draw a card” until your next turn.
+• Off — Cesario gains lifelink and “At the beginning of combat on your turn, support X, where X is Cesario’s power” until your next turn.</text>
+    </card>
+    <card>
+      <name>Kawakami Princess, Precocious</name>
+      <set rarity="rare">UUMA</set>
+      <prop>
+        <colors>WG</colors>
+        <manacost>3GW</manacost>
+        <cmc>5</cmc>
+        <type>Legendary Creature - Horse Racer Noble? </type>
+        <maintype>Creature</maintype>
+        <pt>5/5</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>Vigilance, trample
+Creatures you control with trample have vigilance. Creatures you control with vigilance have trample.</text>
+    </card>
+    <card>
+      <name>Copano Rickey, Feng Shui Girl</name>
+      <set rarity="rare">UUMA</set>
+      <prop>
+        <colors>WUG</colors>
+        <manacost>1G/WU</manacost>
+        <cmc>3</cmc>
+        <type>Legendary Creature - Horse Racer </type>
+        <maintype>Creature</maintype>
+        <pt>1/3</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>At the beginning of your upkeep, scry X, where X is the number of permanent types among permanents you control. (Artifact, battle, creature, enchantment, land, and planeswalker are permanent types.)
+Whenever you scry, gain life equal to the number of cards looked at while scrying this way.</text>
+    </card>
+    <card>
+      <name>Duramente, Embodiment of the Strongest</name>
+      <set rarity="mythic">UUMA</set>
+      <prop>
+        <colors>BRG</colors>
+        <manacost>1BB/RG</manacost>
+        <cmc>4</cmc>
+        <type>Legendary Creature - Horse Racer </type>
+        <maintype>Creature</maintype>
+        <pt>4/4</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>Menace, trample
+Pay X life: The next time X or fewer +1/+1 counters would be put on Duramente this turn, twice that many +1/+1 counters are put on Duramente instead.</text>
+    </card>
+    <card>
+      <name>Samson Big, Small but Mighty</name>
+      <set rarity="rare">UUMA</set>
+      <prop>
+        <colors>RG</colors>
+        <manacost>1R/GG</manacost>
+        <cmc>3</cmc>
+        <type>Legendary Creature - Horse Racer </type>
+        <maintype>Creature</maintype>
+        <pt>1/1</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>Trample
+Whenever you cast an enchantment spell, Samson Big gets +X/+X until end of turn, where X is that spell’s mana value.
+If Samson Big would be put into a graveyard from anywhere, reveal Samson Big and shuffle her into her owner’s library instead.</text>
+    </card>
+    <card>
+      <name>Seeking the Pearl, Globetrotter</name>
+      <set rarity="rare">UUMA</set>
+      <prop>
+        <colors>URG</colors>
+        <manacost>GUR</manacost>
+        <cmc>3</cmc>
+        <type>Legendary Creature - Horse Racer </type>
+        <maintype>Creature</maintype>
+        <pt>2/3</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>{G/U}, {T}: Create a Map token.
+Whenever a creature you control explores, create a tapped Treasure token.</text>
+    </card>
+    <card>
+      <name>Freed from the Real</name>
+      <set rarity="mythic">UUMA</set>
+      <prop>
+        <colors>U</colors>
+        <manacost>2U</manacost>
+        <cmc>3</cmc>
+        <type>Enchantment - Aura </type>
+        <maintype>Enchantment</maintype>
+      </prop>
+      <tablerow>1</tablerow>
+      <text></text>
+    </card>
+    <card>
+      <name>Gold-Triumph</name>
+      <set rarity="rare">UUMA</set>
+      <prop>
+        <colors>BR</colors>
+        <manacost>4BR</manacost>
+        <cmc>6</cmc>
+        <type>Enchantment</type>
+        <maintype>Enchantment</maintype>
+      </prop>
+      <tablerow>1</tablerow>
+      <text>Creatures you control have “Whenever a creature dealt damage by this creature this turn dies, create a Treasure token.”</text>
+    </card>
+    <card>
+      <name>Fusaichi Pandora, Self-Assured Prodigy</name>
+      <set rarity="rare">UUMA</set>
+      <prop>
+        <colors>R</colors>
+        <manacost>2R</manacost>
+        <cmc>3</cmc>
+        <type>Legendary Creature - Horse Racer </type>
+        <maintype>Creature</maintype>
+        <pt>2/2</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>Whenever one or more cards are put into exile from your library, add {R}. Spend this mana only to cast a card from exile.
+{R}, Discard a card: Exile the top card of your library. You may play that card this turn.</text>
     </card>
 
     <!-->Tokens</-->
