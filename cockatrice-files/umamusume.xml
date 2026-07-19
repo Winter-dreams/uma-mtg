@@ -713,15 +713,16 @@ Whenever the final chapter ability of a Saga you control triggers, creatures you
       <set rarity="common">UUMA</set>
       <prop>
         <colors>WU</colors>
-        <manacost>3WU</manacost>
-        <cmc>5</cmc>
+        <manacost>1WU</manacost>
+        <cmc>3</cmc>
         <type>Legendary Creature - Horse Racer </type>
         <maintype>Creature</maintype>
         <pt>4/3</pt>
       </prop>
       <tablerow>2</tablerow>
-      <text>1WU, {T}: Scry 1.
-Each card in your hand has miracle. Its miracle cost is equal to its mana cost reduced by {X}, where X is the number of spells cast since your last turn.</text>
+      <text>1U, {T}: Scry 1.
+Whenever you cast a spell, if it isn’t your turn, create a 1/1 white Rabbit creature token.
+Exile X Rabbits you control: Until end of turn, each nonland card in your hand has miracle. Its miracle cost is equal to its mana cost minus {X}. X can’t be 0.</text>
     </card>
     <card>
       <name>Manhattan Cafe, Creeping Shadow</name>
@@ -1745,7 +1746,7 @@ Whenever Nakayama Festa blocks or becomes blocked, roll a six-sided die.</text>
       <tablerow>2</tablerow>
       <text>Trample
 When Orfevre enters, you become the monarch.
-At the beginning of your end step, if you’re the monarch, create a treasure token. If Orfevre dealt combat damage to an opponent this turn, create two treasure tokens instead.</text>
+At the beginning of your end step, if you’re the monarch, create a Treasure token. If Orfevre dealt combat damage to an opponent this turn, create two Treasure tokens instead.</text>
     </card>
     <card>
       <name>Zenno Rob Roy, Student Librarian</name>
@@ -3946,8 +3947,52 @@ Whenever a creature you control explores, create a tapped Treasure token.</text>
         <pt>2/2</pt>
       </prop>
       <tablerow>2</tablerow>
-      <text>Whenever one or more cards are put into exile from your library, add {R}. Spend this mana only to cast a card from exile.
+      <text>Whenever one or more cards are put into exile from your library, add {R}. Until the end of turn, you don’t lose this mana as steps and phases end. Spend this mana only to cast a card from exile.
 {R}, Discard a card: Exile the top card of your library. You may play that card this turn.</text>
+    </card>
+    <card>
+      <name>Tap Dance City, Dream-Chaser</name>
+      <set rarity="rare">UUMA</set>
+      <prop>
+        <colors>UR</colors>
+        <manacost>2UR</manacost>
+        <cmc>4</cmc>
+        <type>Legendary Creature - Horse Racer </type>
+        <maintype>Creature</maintype>
+        <pt></pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text></text>
+    </card>
+    <card>
+      <name>Air Messiah, Fulfiller of Destiny</name>
+      <set rarity="rare">UUMA</set>
+      <prop>
+        <colors>WG</colors>
+        <manacost>1GW</manacost>
+        <cmc>3</cmc>
+        <type>Legendary Creature - Horse Racer </type>
+        <maintype>Creature</maintype>
+        <pt>3/3</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>Vigilance
+When Air Messiah enters, exile target Horse card from your graveyard until Air Messiah leaves the battlefield. Put X +1/+1 counters on Air Messiah, where X is the exiled card’s mana value.</text>
+    </card>
+    <card>
+      <name>Lucky Lilac, Sublime</name>
+      <set rarity="rare">UUMA</set>
+      <prop>
+        <colors>WBR</colors>
+        <manacost>1W/BR</manacost>
+        <cmc>3</cmc>
+        <type>Legendary Creature - Horse Racer </type>
+        <maintype>Creature</maintype>
+        <pt>2/2</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>Training, vigilance
+Nandeyanen!? — {T}: Lucky Lilac deals damage equal to her power to target attacking creature. Then put a -1/-1 counter on her.</text>
     </card>
 
     <!-->Tokens</-->
